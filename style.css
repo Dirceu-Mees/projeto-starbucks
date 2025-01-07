@@ -4,10 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     padding-top: 20px;
     padding-left: 100px;
-    padding-right: 100px;   
+    padding-right: 100px;
+    min-height: 100px;
 }
 
 .caixa-conteudo {
@@ -72,14 +74,14 @@ button:hover {
 }
 
 .caixa-imagem {
-    width: 600px;
+    width: 800px;
     display: flex;
     justify-content: flex-end;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .copo {
-    width: 340px;
+    width: 300px;
 }
 
 .circulo {
@@ -92,33 +94,27 @@ button:hover {
     clip-path: circle(600px at right 800px);
     z-index: -1;
 }
-/* button {
-    background-color: #e62019;
-    /* Cor de fundo */
-    /* border: none;
+button {
+    background-color: #017143;
+    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
     margin: 4px 2px;
     cursor: pointer;
-
     animation: pulse 0.7s infinite;
-    /* Animação de pulsação */
-/* } */
+} 
 
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
     }
-
     70% {
         box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
     }
-
     100% {
         box-shadow: 0 0 0 0 rgba(0,
                 0, 0, 0);
