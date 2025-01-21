@@ -37,20 +37,23 @@ span {
 
 p {
     font-size: 16px;
+    padding: 15px;
 }
 
 button{
     background-color: #017143;
     color: #ffffff;
     border-radius: 40px;
-    padding: 10px;
+    padding: 20px;
     border: none;
     cursor: pointer;
     margin-top: 30px;
+    
 }
 
 button:hover {
     background-color: #208058;
+   
 }
 
 .logo {
